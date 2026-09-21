@@ -34,8 +34,8 @@ A production-grade, FastAPI-based scraping service designed specifically for **A
 - **Configured Proxy**:
   ```python
   proxies = {
-      "http": "http://scraperapi.country_code=ind:c5c0632e2085b50a6858e2aecad14cc2@proxy-server.scraperapi.com:8001",
-      "https": "http://scraperapi.country_code=ind:c5c0632e2085b50a6858e2aecad14cc2@proxy-server.scraperapi.com:8001"
+      "http": "http://scraperapi.country_code=ind:<key>@proxy-server.scraperapi.com:8001",
+      "https": "http://scraperapi.country_code=ind:<key>@proxy-server.scraperapi.com:8001"
   }
   ```
 - **Correction of Prompt Explained**:
@@ -130,7 +130,7 @@ DEBUG_MODE=false
 SCRAPER_API_KEY=fresh-api-key-2026-secure
 
 # Network & Proxy (Configured with ScraperAPI India Proxy)
-PROXY_URL=http://scraperapi.country_code=ind:c5c0632e2085b50a6858e2aecad14cc2@proxy-server.scraperapi.com:8001
+PROXY_URL=http://scraperapi.country_code=ind:<key>@proxy-server.scraperapi.com:8001
 VERIFY_SSL=false
 
 # Scraper Rules
